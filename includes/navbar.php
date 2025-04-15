@@ -1,5 +1,5 @@
 
-    <div class="nav_container">
+    <div class="nav_container rajdhani-regular">
         <h1 class="logo">
             <img src="assets/images/Logo_1.png" alt="sayna_logo" >
             <!-- <span>TODO LIST</span> -->

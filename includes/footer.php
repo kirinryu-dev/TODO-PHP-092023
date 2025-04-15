@@ -4,7 +4,7 @@
   <p class="sub-footer">© 2025 Tous droits réservés. Projet éducatif | Makuro Tech spirit 💡</p>
 </footer> -->
 
-<footer class="footer">
+<footer class="footer rajdhani-regular">
   <p>🚀 コラボ: <strong>サイナ</strong> × <strong>キリルニュ👹</strong></p>
   <p class="sub-footer">© 2025 | 教育プロジェクト | Makuro Tech スピリット 💡</p>
 </footer>

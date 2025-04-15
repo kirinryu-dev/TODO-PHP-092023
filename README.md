@@ -1,9 +1,33 @@
 # TODO-PHP-092023
 
-## To open this project 
-Host versel :
-Prefer have it on local ? first download all file in the repo and install XAMP , put files in hostd folder and open it in VS code , next go live on localhost port 5500 or use live server http://127.0.1:5500
+## How to Open This Project 🚀
 
+ Option 1: Host on Vercel (Recommended)
+You can deploy this project directly using Vercel for easy sharing and access online.
+
+ Option 2: Run Locally
+Download the Project Files
+Clone or download the entire repository.
+
+Install XAMPP
+Download and install XAMPP to create a local PHP server.
+
+Set Up the Project
+Move the project folder into the htdocs directory inside your XAMPP installation folder.
+
+Open in VS Code (Optional but recommended)
+Launch the folder in Visual Studio Code to edit and manage your files.
+
+Start the Local Server
+
+Open the XAMPP control panel, start Apache.
+
+Then go to your browser and open:
+http://localhost/mon-projet
+
+(Optional) Use Live Server in VS Code
+If you're working mostly on HTML/CSS/JS, you can right-click on index.php or index.html and click "Open with Live Server".
+Default URL: http://127.0.0.1:5500 (if using the Live Server extension)
 ## Project Description:
 The Simple To-Do List App is a user-friendly web application built with PHP (and some HTML and CSS too...). It allows users to:
 - Add tasks

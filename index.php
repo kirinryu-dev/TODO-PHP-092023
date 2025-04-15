@@ -9,7 +9,8 @@ require_once 'php/taskFunction.php';
 <div><?php require_once 'includes/navbar.php'; ?></div>
 
 <main>
-    <div class="app_container">
+
+    <div class="app_container rajdhani-regular">
         <h2 class="app_second-title"><?= APP_NAME ?></h2>
       
         <!-- Task Form -->
@@ -49,6 +50,7 @@ require_once 'php/taskFunction.php';
                 }
                 ?>
             </div>
+            
         </div>
     </div>
 </main>
