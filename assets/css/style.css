@@ -10,12 +10,68 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+    /* app main color  */
+    --primary-color:  #2a2e3b;
+    --secondary-color: #6c757d;
+    --primary-text-color: #f8d775;
+    --secondary-text-color: #a0a0a0;
+    --form-color: #4a4f63;
+    --form-bg-color: #3a3f50;
+    --form-button-color: #f8d775;
+
+    /* alert color  */
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+
+    /* default color  */
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
 a,
 a:link ,
 a:visited {
   text-decoration: none;
 
 }
+
+/* Typography & Font */
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+  
+ .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+  
+ .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+  
+ .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+ }
+  
+ .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+  
 
 /* Body style  */
 
@@ -84,28 +140,30 @@ ul li a:hover {
 /* ================= */
 
 /* Main Card Styling */
+
 .training-card {
     width: 100%;
     max-width: 420px;
-    background-color: #2a2e3b;
+    background-color:  var(--primary-color);
     border-radius: 12px;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e0e0e0;
+    color: var(--white-color);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Header Section */
+
 .card-header {
-    background-color: #3a3f50;
+    background-color: var(--form-bg-color);
     padding: 16px 20px;
-    border-bottom: 1px solid #4a4f63;
+    border-bottom: 1px solid var(--form-color);
 }
 
 .card-header h2 {
     margin: 0;
     font-size: 18px;
-    color: #ffffff;
+    color:  var(--white-color);
     font-weight: 600;
 }
 
@@ -113,7 +171,7 @@ ul li a:hover {
     margin: 4px 0 0;
     font-size: 14px;
     font-weight: normal;
-    color: #a0a0a0;
+    color:  var(--secondary-text-color);
 }
 
 /* Task Container */
@@ -124,7 +182,7 @@ ul li a:hover {
 /* Task Item */
 .task-item {
     padding: 16px 20px;
-    border-bottom: 1px solid #3a3f50;
+    border-bottom: 1px solid var(--dark-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,6 +190,7 @@ ul li a:hover {
 }
 
 /* to do section  */
+
 .task-todo {
     width: 60%;
     display: flex;
@@ -145,12 +204,12 @@ ul li a:hover {
     padding: 1em;
     display: flex;
     justify-content: start;
-    color: #a0a0a0;
+    color:  var(--secondary-text-color);
 }
 
 .task-title {
     font-size: 15px;
-    color: #ffffff;
+    color: var(--white-color);
     line-height: 1.4;
 }
 
@@ -168,11 +227,11 @@ ul li a:hover {
 
 .status-text {
     font-size: 13px;
-    color: #a0a0a0;
+    color:  var(--secondary-text-color);
 }
 
 .task-reward {
-    color: #f8d775;
+    color: var(--primary-text-color);
     font-weight: bold;
     font-size: 14px;
     display: flex;
@@ -180,10 +239,94 @@ ul li a:hover {
 }
 
 .reward-label {
-    color: #a0a0a0;
+    color:  var(--secondary-text-color);
     font-weight: normal;
     margin-left: 4px;
     font-size: 13px;
 }
 
+/* ======================= */
+/* Task form style  */
+
+.app_container {
+    width: 100%;
+    max-width:  800px;
+    margin: 0 auto;
+
+}
+
+.app_second-title {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+.task_form {
+    background-color: var(--primary-color);
+    padding: 2em;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+}
+
+.task_form h3 {
+    color: var(--light-color);
+    margin-bottom: 2em;
+}
+
+form {
+    margin-bottom:  1em;
+
+}
+
+form label {
+    color: var(--white-color);
+    margin: 0.5em  0.5em;
+    /* display: block; */
+}
+
+form input {
+    background-color: var(--form-bg-color) ;
+    color : var(--white-color);
+    width: 100%;
+    padding:  2em;
+    border:  1px solid var(--form-color);
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
+
+}
+
+form button {
+    background-color:  var(--form-button-color);
+    color: var(--primary-color);
+    padding: 1em 2em;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+
+
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+form button:hover {
+    background-color: var(--primary-text-color);
+    color: var(--white-color);
+
+}
+form button:active {
+    background-color: var(--primary-text-color);
+    color: var(--white-color);
+    transform: scale(0.95);
+
+}
 
