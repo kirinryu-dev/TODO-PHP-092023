@@ -2,10 +2,7 @@
 
 ## How to Open This Project 🚀
 
- Option 1: Host on Vercel (Recommended)
-You can deploy this project directly using Vercel for easy sharing and access online.
-
- Option 2: Run Locally
+ Option : Run Locally
 Download the Project Files
 Clone or download the entire repository.
 
