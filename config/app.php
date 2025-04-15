@@ -1,5 +1,5 @@
 <?php 
-const APP_NAME = 'Task Management App';
+const APP_NAME = 'TODO LIST';
 const APP_VERSION = '1.0.0';
 const APP_TYPE = 'Web Application';
 const APP_DESCRIPTION = 'A simple task management application to add, edit, and delete tasks.';

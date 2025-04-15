@@ -2,7 +2,7 @@
     <div class="nav_container">
         <h1 class="logo">
             <img src="assets/images/Logo_1.png" alt="sayna_logo" >
-            <span>TODO LIST</span>
+            <!-- <span>TODO LIST</span> -->
         </h1>
 
         <nav>

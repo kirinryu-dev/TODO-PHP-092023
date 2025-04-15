@@ -1,5 +1,9 @@
 # TODO-PHP-092023
 
+## To open this project 
+Host versel :
+Prefer have it on local ? first download all file in the repo and install XAMP , put files in hostd folder and open it in VS code , next go live on localhost port 5500 or use live server http://127.0.1:5500
+
 ## Project Description:
 The Simple To-Do List App is a user-friendly web application built with PHP (and some HTML and CSS too...). It allows users to:
 - Add tasks
